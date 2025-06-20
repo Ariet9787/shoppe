@@ -1,3 +1,26 @@
 .homepage-featured {
   margin-bottom: 64px;
 }
+.homepage-latest-products {
+  margin-bottom: 250px;
+}
+.homepage-latest-products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 47px;
+}
+.homepage-latest-products-header h2 {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 130%;
+  color: #000;
+}
+.lates-products-view-all {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #a18a68;
+  text-decoration: none;
+}
