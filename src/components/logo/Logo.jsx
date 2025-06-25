@@ -1,8 +1,10 @@
+import { getLogo } from "@/utils/globalApi";
 import "./logo.css";
 import Image from "next/image";
-import LogoImg from "@/assets/SHOPPE.svg";
 
-function Logo() {
+async function Logo() {
+  const Logoimg = await getLogo();
+  console.log(LogoImg);
   return <Image className="logo" src={LogoImg} alt="Shoppe" />;
 }
 

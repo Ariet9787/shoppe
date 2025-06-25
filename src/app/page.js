@@ -3,6 +3,8 @@ import "./page.css";
 import FeaturedProduct from "@/components/featured-product/FeaturedProduct";
 import featuredProductData from "@/data/featured-product.json";
 import Link from "next/link";
+import Products from "@/data/products.json";
+import ProductLists from "@/components/product-lists/ProductLists";
 export default function Home() {
   return (
     <main className="homepage">
@@ -18,6 +20,7 @@ export default function Home() {
               View All
             </Link>
           </div>
+          <ProductLists products={Products} />
         </section>
       </Container>
     </main>

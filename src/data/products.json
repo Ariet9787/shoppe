@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  },
+  {
+    "id": "6",
+    "title": "Lira Earrings",
+    "price": "20.00",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. ",
+    "sku": "12",
+    "brand": "Lira",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.",
+    "images": [
+      "/assets/images/product/product-1.jpg",
+      "/assets/images/product/product-2.jpg",
+      "/assets/images/product/product-3.jpg"
+    ],
+    "thumbnail": "/assets/images/product/product-1-thumbnail.jpg",
+    "discount": "20",
+    "inStock": true,
+    "characteristics": {
+      "weight": "0.3kg",
+      "color": "gold, white",
+      "dimentions": "15 *  10 * 1(cm)",
+      "material": "Metal"
+    }
+  }
+]
