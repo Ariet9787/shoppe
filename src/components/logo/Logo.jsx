@@ -1,11 +1,17 @@
-import { getLogo } from "@/utils/globalApi";
 import "./logo.css";
 import Image from "next/image";
 
-async function Logo() {
-  const Logoimg = await getLogo();
-  console.log(LogoImg);
-  return <Image className="logo" src={LogoImg} alt="Shoppe" />;
+function Logo({ logoImage, appName }) {
+  return (
+    <Image
+      className="logo"
+      src={logoImage}
+      alt={appName}
+      width={200}
+      height={60}
+      priority
+    />
+  );
 }
 
 export default Logo;

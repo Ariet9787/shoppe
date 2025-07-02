@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ProductCard({ product }) {
-  console.log(product.thumbnail);
+  // console.log(product.thumbnail);
   return (
     <div className="product-card">
       <Link href={`/products/${product.id}`} className="product-card-link">

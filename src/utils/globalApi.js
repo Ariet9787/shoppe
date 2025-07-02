@@ -1,17 +1,13 @@
-const PUBLIC_API = process.env.PUBLIC_API;
+const publicApi = process.env.PUBLIC_API;
 
-async function getLogo() {
+async function getShopInfo() {
   try {
-    const response = await fetch(`${PUBLIC_API}/shop-info?populate=logo`);
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
-    }
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Error fetching logo:", error);
-    return null;
+    const res = await fetch(`${publicApi}/shop-info?populate=logo`);
+    const data = await res.json();
+
+    return data.data;
+  } catch (e) {
+    console.log(e);
   }
 }
-
-export { getLogo };
+export { getShopInfo };

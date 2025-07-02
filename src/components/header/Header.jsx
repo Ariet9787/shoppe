@@ -6,13 +6,13 @@ import "./header.css";
 import Link from "next/link";
 import { useState } from "react";
 
-function Header() {
+function Header({ logoImage, appName }) {
   const [isOpen, setOpen] = useState(false);
   return (
     <Container>
       <header className="header">
         <Link href="/">
-          <Logo />
+          <Logo logoImage={logoImage} appName={appName} />
         </Link>
 
         <button className="header-burger-btn" onClick={() => setOpen(!isOpen)}>

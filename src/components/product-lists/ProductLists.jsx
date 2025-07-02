@@ -1,7 +1,7 @@
 import ProductCard from "../product-card/ProductCard";
 
 function ProductLists({ products }) {
-  console.log(products);
+  // console.log(products);
   return (
     <div className="product-list">
       {products.map((product) => {
