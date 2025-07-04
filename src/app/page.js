@@ -1,11 +1,12 @@
 import Container from "@/components/container/Container";
 import "./page.css";
 import FeaturedProduct from "@/components/featured-product/FeaturedProduct";
-import featuredProductData from "@/data/featured-product.json";
 import Link from "next/link";
 import Products from "@/data/products.json";
 import ProductLists from "@/components/product-lists/ProductLists";
-export default function Home() {
+import { getFeaturedProduct } from "@/utils/globalApi";
+export default async function Home() {
+  const featuredProductData = await getFeaturedProduct();
   return (
     <main className="homepage">
       <Container>

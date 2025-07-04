@@ -10,4 +10,15 @@ async function getShopInfo() {
     console.log(e);
   }
 }
-export { getShopInfo };
+async function getFeaturedProduct() {
+  try {
+    const res = await fetch(
+      `${publicApi}/products?populate=*&filters[isFeatured][$eq]=true&sort=createdAt:desc&pagination[limit]=1`
+    );
+    const data = await res.json();
+    return data.data[0];
+  } catch (e) {
+    console.error(e);
+  }
+}
+export { getShopInfo, getFeaturedProduct };

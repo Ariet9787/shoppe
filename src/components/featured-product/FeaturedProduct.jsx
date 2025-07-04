@@ -8,7 +8,7 @@ function FeaturedProduct({ product }) {
     <div className="featured-product">
       <div className="featured-product-info">
         <h2 className="featured-product-title">{product.title}</h2>
-        <p className="featured-product-price">{product.price}</p>
+        <p className="featured-product-price">$ {product.price}</p>
         <Link
           className="featured-product-link"
           href={`/products/${product.id}`}
@@ -19,7 +19,7 @@ function FeaturedProduct({ product }) {
       <Image
         fill
         className="featured-product-image"
-        src={product.image}
+        src={`${process.env.BASE_URL}${product.thumbnail.url}`}
         alt={product.title}
       />
     </div>
