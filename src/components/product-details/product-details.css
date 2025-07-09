@@ -1,0 +1,116 @@
+.product-details-container {
+  padding-top: 145px;
+}
+.product-details-top {
+  margin-bottom: 123px;
+  display: flex;
+}
+.product-detailes-bottom {
+  margin-bottom: 96px;
+}
+.product-details-images {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-right: 40px;
+}
+.product-details-main-image {
+  margin-right: 62px;
+}
+.product-images {
+  border-radius: 8px;
+  width: 120px;
+  height: 120px;
+}
+.product-main-image {
+  width: 540px;
+  height: 600px;
+  border-radius: 8px;
+}
+.product-details-content {
+}
+.product-content-title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 135%;
+  color: #000;
+  margin: 0 0 23px 0;
+}
+.product-content-price {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #a18a68;
+  margin-bottom: 110px;
+}
+.product-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #707070;
+  margin: 0 0 48px 0;
+}
+.product-bag {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  margin-bottom: 137px;
+}
+.product-bag p {
+  background: #efefef;
+  display: flex;
+  padding: 12px 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.product-details-cart {
+  padding: 16px 127px;
+  border: 1px solid black;
+}
+.product-sku,
+.product-brand {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #000;
+}
+.product-sku span,
+.product-brand span {
+  color: #707070;
+}
+.product-bottom-tabs {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  margin-bottom: 73px;
+}
+.product-bottom-tabs button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #707070;
+}
+.product-bottom-tabs .activeTab {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+}
+.product-bottom-desc p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #707070;
+}
+.product-bottom-aditional p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #000;
+}
+.product-bottom-aditional span {
+  color: #707070;
+}

@@ -11,7 +11,7 @@ function FeaturedProduct({ product }) {
         <p className="featured-product-price">$ {product.price}</p>
         <Link
           className="featured-product-link"
-          href={`/products/${product.id}`}
+          href={`/products/${product.documentId}`}
         >
           View product
         </Link>
@@ -19,7 +19,7 @@ function FeaturedProduct({ product }) {
       <Image
         fill
         className="featured-product-image"
-        src={`${process.env.BASE_URL}${product.thumbnail.url}`}
+        src={`${process.env.NEXT_PUBLIC_BASE_URL}${product.thumbnail.url}`}
         alt={product.title}
       />
     </div>

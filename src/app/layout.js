@@ -15,7 +15,7 @@ export const metadata = {
 export default async function RootLayout({ children }) {
   const shopInfo = await getShopInfo();
   const logo = shopInfo.logo;
-  const logoImage = `${process.env.BASE_URL}${logo.url}`;
+  const logoImage = `${process.env.NEXT_PUBLIC_BASE_URL}${logo.url}`;
   return (
     <html lang="en">
       <body className={dmSans.className}>

@@ -21,4 +21,24 @@ async function getFeaturedProduct() {
     console.error(e);
   }
 }
-export { getShopInfo, getFeaturedProduct };
+async function getProducts() {
+  try {
+    const res = await fetch(
+      `${publicApi}/products?populate=*&pagination[limit]=6`
+    );
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+async function getProduct(id) {
+  try {
+    const res = await fetch(`${publicApi}/products/${id}?populate=*`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+export { getShopInfo, getFeaturedProduct, getProducts, getProduct };

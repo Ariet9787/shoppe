@@ -2,11 +2,11 @@ import Container from "@/components/container/Container";
 import "./page.css";
 import FeaturedProduct from "@/components/featured-product/FeaturedProduct";
 import Link from "next/link";
-import Products from "@/data/products.json";
 import ProductLists from "@/components/product-lists/ProductLists";
-import { getFeaturedProduct } from "@/utils/globalApi";
+import { getFeaturedProduct, getProducts } from "@/utils/globalApi";
 export default async function Home() {
   const featuredProductData = await getFeaturedProduct();
+  const productsData = await getProducts();
   return (
     <main className="homepage">
       <Container>
@@ -21,7 +21,7 @@ export default async function Home() {
               View All
             </Link>
           </div>
-          <ProductLists products={Products} />
+          <ProductLists products={productsData} />
         </section>
       </Container>
     </main>
