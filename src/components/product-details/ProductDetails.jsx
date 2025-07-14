@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0].url);
+  const [activeTab, setActiveTab] = useState("description");
   return (
     <Container>
       <div className="product-details-container">
@@ -56,26 +57,44 @@ function ProductDetails({ product }) {
         </div>
         <div className="product-detailes-bottom">
           <div className="product-bottom-tabs">
-            <button className="activeTab">Description</button>
-            <button>Aditional information</button>
+            <button
+              onClick={() => {
+                setActiveTab("description");
+              }}
+              className={activeTab === "description" ? "activeTab" : ""}
+            >
+              Description
+            </button>
+            <button
+              onClick={() => {
+                setActiveTab("aditional");
+              }}
+              className={activeTab === "aditional" ? "activeTab" : ""}
+            >
+              Aditional information
+            </button>
           </div>
-          <div className="product-bottom-desc">
-            <p>{product.description}</p>
-          </div>
-          <div className="product-bottom-aditional">
-            <p>
-              Weight: <span>{product.weight}</span>
-            </p>
-            <p>
-              Dimentions: <span>{product.dimenstions}</span>
-            </p>
-            <p>
-              Colors: <span>{product.colours}</span>
-            </p>
-            <p>
-              Material: <span>{product.material}</span>
-            </p>
-          </div>
+          {activeTab === "description" && (
+            <div className="product-bottom-desc">
+              <p>{product.description}</p>
+            </div>
+          )}
+          {activeTab === "aditional" && (
+            <div className="product-bottom-aditional">
+              <p>
+                Weight: <span>{product.weight}</span>
+              </p>
+              <p>
+                Dimentions: <span>{product.dimenstions}</span>
+              </p>
+              <p>
+                Colors: <span>{product.colours}</span>
+              </p>
+              <p>
+                Material: <span>{product.material}</span>
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </Container>
