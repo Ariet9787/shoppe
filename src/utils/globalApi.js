@@ -41,4 +41,13 @@ async function getProduct(id) {
     console.error(e);
   }
 }
-export { getShopInfo, getFeaturedProduct, getProducts, getProduct };
+async function getTerms() {
+  try {
+    const res = await fetch(`${publicApi}/terms-of-service`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+export { getShopInfo, getFeaturedProduct, getProducts, getProduct, getTerms };
