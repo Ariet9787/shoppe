@@ -2,6 +2,8 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header.jsx";
 import { getShopInfo } from "@/utils/globalApi.js";
+import Container from "@/components/container/Container";
+import Footer from "@/components/footer/Footer";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -22,6 +24,9 @@ export default async function RootLayout({ children }) {
         <Header logoImage={logoImage} appName={shopInfo.name} />
 
         {children}
+        <Container>
+          <Footer shopInfo={shopInfo} />
+        </Container>
       </body>
     </html>
   );

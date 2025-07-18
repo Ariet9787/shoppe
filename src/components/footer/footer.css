@@ -1,0 +1,43 @@
+.footer {
+  border-top: 1px solid #d8d8d8;
+  padding: 73px 0 90px 0;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+.footer-links a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #707070;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer-shop-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-shop-info p {
+  font-size: 16px;
+  color: black;
+  line-height: 169px;
+}
+.footer-shop-info a {
+  color: #707070;
+  text-decoration: none;
+}
+.footer-shop-info ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.footer-shop-info img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
