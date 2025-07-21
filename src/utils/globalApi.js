@@ -50,4 +50,40 @@ async function getTerms() {
     console.error(e);
   }
 }
-export { getShopInfo, getFeaturedProduct, getProducts, getProduct, getTerms };
+async function getPrivacy() {
+  try {
+    const res = await fetch(`${publicApi}/privacy-ploicy`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+async function getShippingAndReturn() {
+  try {
+    const res = await fetch(`${publicApi}/shipping-and-return`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+async function getTermsOfUse() {
+  try {
+    const res = await fetch(`${publicApi}/terms-of-use`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+export {
+  getShopInfo,
+  getFeaturedProduct,
+  getProducts,
+  getProduct,
+  getTerms,
+  getPrivacy,
+  getShippingAndReturn,
+  getTermsOfUse,
+};
