@@ -1,0 +1,25 @@
+.shop-top {
+  padding-top: 61px;
+  margin-bottom: 48px;
+}
+.shop {
+  padding-bottom: 285px;
+  display: grid;
+  grid-template-columns: 260px 950px;
+  gap: 35px;
+}
+.shop-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.shop-title {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 130%;
+  color: #000;
+}
+.shop .product-card-image {
+  width: 300px !important;
+  height: 300px !important;
+}

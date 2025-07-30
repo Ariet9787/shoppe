@@ -77,6 +77,15 @@ async function getTermsOfUse() {
     console.error(e);
   }
 }
+async function getBrands() {
+  try {
+    const res = await fetch(`${publicApi}/brands`);
+    const data = await res.json();
+    return data.data;
+  } catch (e) {
+    console.error(e);
+  }
+}
 export {
   getShopInfo,
   getFeaturedProduct,
@@ -86,4 +95,5 @@ export {
   getPrivacy,
   getShippingAndReturn,
   getTermsOfUse,
+  getBrands,
 };
